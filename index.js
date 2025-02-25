@@ -2,7 +2,7 @@
 
 import { wizzard } from '@promptbook/wizzard';
 
-const result = await wizzard.execute('./books/hello.book',{yourName: 'Paul'});
+const result = await wizzard.execute('./books/form.book',{yourName: 'Paul'});
 
 // console.info(result);
 
