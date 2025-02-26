@@ -2,23 +2,24 @@
 
 Parsing of the form https://naucmeit.fillout.com/t/2dz9vM4ye2us
 
+```
+The form:
+Co sis odnesl z AI workshopů? Pomohl jsem ti vyřešit nějaký problém nebo tě nasměřovat? Pokud ano, prosím poděl se. :)
+Co všechno už jsi předtím zkoušel*a na cestě za tím ovládnout AI?
+Jakou 1 konkrétní věc bys vyzdvihl*a na AI workshopech, kterou jsi jinde zatím neviděl*a?
+Jak bys 3 slovy popsal*a naši spolupráci?
+Co tě na naší spolupráci překvapilo?
+Doporučil*a bys moje workshopy klientům a kolegům z oboru? Proč ano či ne?
+Komu bys AI workshopy doporučil*a?
+Co bych mohl zlepšit na mých workshopech a přednáškách?
+Chybělo ti něco na mých workshopech? Měl bych něco přidat?
+Cokoliv dalšího, co mi chceš sdělit, např. nápady na další workshopy?
+```
 
-- INPUT PARAM {answer01} Co sis odnesl z AI workshopů? Pomohl jsem ti vyřešit nějaký problém nebo tě nasměřovat? Pokud ano, prosím poděl se. :)
-- INPUT PARAM {answer02} Co všechno už jsi předtím zkoušel*a na cestě za tím ovládnout AI?
-- INPUT PARAM {answer03} Jakou 1 konkrétní věc bys vyzdvihl*a na AI workshopech, kterou jsi jinde zatím neviděl*a?
-- INPUT PARAM {answer04} Jak bys 3 slovy popsal*a naši spolupráci?
-- INPUT PARAM {answer05} Co tě na naší spolupráci překvapilo?
-- INPUT PARAM {answer06} Doporučil*a bys moje workshopy klientům a kolegům z oboru? Proč ano či ne?
-- INPUT PARAM {answer07} Komu bys AI workshopy doporučil*a?
-- INPUT PARAM {answer08} Co bych mohl zlepšit na mých workshopech a přednáškách?
-- INPUT PARAM {answer09} Chybělo ti něco na mých workshopech? Měl bych něco přidat?
-- INPUT PARAM {answer10} Cokoliv dalšího, co mi chceš sdělit, např. nápady na další workshopy?
 
+- INPUT PARAM {answers} Answers listed above in JSON format
 - OUTPUT PARAM {email} Email pro uživatele
-<!-- <- TODO: What we want to output and derrive from the form -->
-
-
-- KNOWLEDGE https://naucme.it/
+- KNOWLEDGE https://luciekoubek.cz/jak-si-napsat-tu-nejlepsi-referenci/
 
 
 ## Email pro uživatele
