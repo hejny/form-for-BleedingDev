@@ -19,7 +19,7 @@ Cokoliv dalšího, co mi chceš sdělit, např. nápady na další workshopy?
 
 - INPUT PARAM {answers} Answers listed above in JSON format
 - OUTPUT PARAM {email} Email pro uživatele
-- KNOWLEDGE https://luciekoubek.cz/jak-si-napsat-tu-nejlepsi-referenci/
+<!-- - KNOWLEDGE https://luciekoubek.cz/jak-si-napsat-tu-nejlepsi-referenci/ -->
 
 
 ## Návrh reference
@@ -29,11 +29,16 @@ Cokoliv dalšího, co mi chceš sdělit, např. nápady na další workshopy?
 - EXPECT MAX 2 PARAGRAPHS
 
 ```
-Napiš reference pro Petra, který vede AI workshopy na základě zpětné vazby od účastníka.
+Napiš referenci pro Petra, který vede AI workshopy na základě zpětné vazby od účastníka:
+
+**Zpětná vazba od účastníka**
+
+> {answers}
 
 **Pravidla**
 
 - Napiš POUZE text reference, nic jiného
+- Reference má reflektovat zpětnou vazbu od účastníka
 - Reference by měla být krátká a výstižná (max 1 odstavec)
 - Reference má být pozitivní
 ```
@@ -47,9 +52,16 @@ Napiš reference pro Petra, který vede AI workshopy na základě zpětné vazby
 - SIMPLE TEMPLATE
 
 ```
-Dobrý den,...
+Dobrý den,
+jsem nesmírně rád, že jsem ti mohl pomoci na včerejším AI workshopu. Budu rád, když mi pošleš referenci na https://navolnenoze.cz/prezentace/petr-glaser/, abych mohl zlepšit své workshopy pro další účastníky.
+
+Text samozřejmě napiš podle sebe, ale pokud bys měl zájem, můžeš použít následující šablonu:
 
 > {testimonial} 
+
+**Vaše odpovědi:**
+
+> {answers}
 
 Těším se na další setkání,
 Petr Glasser
