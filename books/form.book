@@ -22,14 +22,38 @@ Cokoliv dalšího, co mi chceš sdělit, např. nápady na další workshopy?
 - KNOWLEDGE https://luciekoubek.cz/jak-si-napsat-tu-nejlepsi-referenci/
 
 
+## Návrh reference
+
+- PERSONA Petr, Lecturer of the AI workshop
+- EXPECT MIN 1 WORD
+- EXPECT MAX 2 PARAGRAPHS
+
+```
+Napiš reference pro Petra, který vede AI workshopy na základě zpětné vazby od účastníka.
+
+**Pravidla**
+
+- Napiš POUZE text reference, nic jiného
+- Reference by měla být krátká a výstižná (max 1 odstavec)
+- Reference má být pozitivní
+```
+
+-> {testimonial}
+
+
 ## Email pro uživatele
 
-- PERSONA Petr, Experienced developer
+
+- SIMPLE TEMPLATE
 
 ```
-TODO
+Dobrý den,...
+
+> {testimonial} 
+
+Těším se na další setkání,
+Petr Glasser
 ```
+
 
 -> {email}
-
-
